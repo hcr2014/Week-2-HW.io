@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://scontent-b-lhr.xx.fbcdn.net/hphotos-frc3/t1/376912_467251703308202_1890256389_n.jpg');
+      background-size: cover;
+      color: rgba(255,255,200,0.9);
+    }
+    a {
+      color: black;
+    }
+    h1 {
+      font-family: verdana;
+      font-size: 60px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 5px solid rgba(255,255,200,0.9);
+      border-radius: 40px;
+    }
+    
+    ul {
+      padding: 10px;
+      background: rgba(200,10,10,0.6);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      background {
+        
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1/p160x160/550550_475908009109238_2100047688_n.jpg" alt="logo">
+    <h1>HCR Art's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Art</a></li>
+      <li><a href="#">Commissions</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Hello!</h2>
+    <p>Welcome to the hub of my artistic creativity. Feel free to browse through my work. </p>
+    <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn2/t1/p403x403/1530597_713890035311033_1148356409_n.jpg">
+    <br>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Sartorial synth Echo Park, roof party</h2>
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Forage food truck keytar master cleanse</h2>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
